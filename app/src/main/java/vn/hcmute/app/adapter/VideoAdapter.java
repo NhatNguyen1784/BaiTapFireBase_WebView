@@ -77,7 +77,7 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.VideoViewHol
             public void onClick(View view) {
                 if(!isFavorite){
                     // doi mau icon
-                    holder.favorites.setImageResource(R.drawable.favorite);
+                    holder.favorites.setImageResource(R.drawable.fill_favorite);
                     isFavorite = true;
                 }
                 else {
